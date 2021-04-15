@@ -42,11 +42,10 @@
     width: 200px;
     left: 24px;
 }
+
 .left-menu .fixed a{
    display: block;
    padding: 10px 0;
-
-;
 }
 
 .left-menu .fixed .two-column-ali-cen{
@@ -56,9 +55,8 @@
 .left-menu .fixed svg.download{
     width: 20px;
     fill: var(--small-text-colour);
-
 }
+
 .left-menu .fixed svg{
-    
     color: var(--small-text-colour);
 }
