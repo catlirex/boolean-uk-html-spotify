@@ -1,0 +1,64 @@
+.left-menu{
+    /* padding-bottom: 100px; */
+}
+
+.spotify-logo--text{
+    width: 130px;
+}
+
+.logo-container{
+    padding: 20px 24px;
+}
+
+.left-menu nav svg{
+    width: 30px;
+}
+
+.left-menu .active{
+    color: white;
+    font-weight: 800;
+}
+
+.left-menu ul{
+    padding-bottom: 20px;
+}
+
+.left-menu nav li{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.left-menu nav h2{   
+    font-size: 0.8rem;
+}
+
+.left-menu svg.plus{
+    background-color: var(--small-text-colour);
+}
+
+.left-menu .fixed{
+    position: fixed;
+    bottom: 90px;
+    width: 200px;
+    left: 24px;
+}
+.left-menu .fixed a{
+   display: block;
+   padding: 10px 0;
+
+;
+}
+
+.left-menu .fixed .two-column-ali-cen{
+    border-top: 1px solid;
+}
+
+.left-menu .fixed svg.download{
+    width: 20px;
+    fill: var(--small-text-colour);
+
+}
+.left-menu .fixed svg{
+    
+    color: var(--small-text-colour);
+}
