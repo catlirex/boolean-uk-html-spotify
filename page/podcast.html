@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spotify-home</title>
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/left-menu.css" />
-    <link rel="stylesheet" href="style/player.css" />
-    <link rel="stylesheet" href="style/top-upgrade-bar.css" />
-    <link rel="stylesheet" href="style/topnav.css" />
+    <title>Spotify-Podcast</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/left-menu.css" />
+    <link rel="stylesheet" href="../style/player.css" />
+    <link rel="stylesheet" href="../style/top-upgrade-bar.css" />
+    <link rel="stylesheet" href="../style/podcast.css" />
   </head>
   <body>
     <section class="left-menu">
@@ -131,97 +131,121 @@
     </section>
 
     <main class="content">
-      <section class="ali-cen upgrade-bar">
-        <button class="remove-style round-end upgrade">Upgrade</button>
-      </section>
+      <div class="background-container-top">
+        <section class="ali-cen upgrade-bar">
+          <button class="remove-style round-end upgrade">Upgrade</button>
+        </section>
 
-      <nav class="wrapper catergory">
-        <ul class="category-list">
-          <li class="recent"><a href="index.html">Recently played</a></li>
-          <li class="podcast"><a href="page/podcast.html">Podcast</a></li>
-          <li class="genres"><a href=".">Genres & Moods</a></li>
-          <li class="new"><a href=".">New Releases</a></li>
-          <li class="discover"><a href=".">Discover</a></li>
-          <hr />
-        </ul>
-      </nav>
+        <nav class="wrapper catergory">
+          <ul class="category-list">
+            <li class="recent"><a href="../index.html">Recently played</a></li>
+            <li class="podcast"><a href="podcast.html">Podcast</a></li>
+            <li class="genres"><a href="genres.html">Genres & Moods</a></li>
+            <li class="new"><a href=".">New Releases</a></li>
+            <li class="discover"><a href=".">Discover</a></li>
+            <hr />
+          </ul>
+        </nav>
+        <h1>Podcasts</h1>
+      </div>
+      <div class="background-container-bottom">
+        <section class="your-podcast-list">
+          <h2 class="title">Podcasts that you follow</h2>
+          <p class="subtitle">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+            consectetur.
+          </p>
 
-      <!-- <section class="recent-play">
-        <h2 class="title">Recently played</h2>
-        <div class="auto-flow max-content">
-          <a class="ali-cen" href=".">
-            <img class="cover-img" src="assets/img/youg.jpeg" alt="youg" />
-            <h3 class="song-title">Heavy</h3>
-            <span class="subtitle">artist</span>
-          </a>
-          <a class="ali-cen" href=".">
-            <img class="cover-img" src="assets/img/youg.jpeg" alt="youg" />
-            <h3 class="song-title">Heavy</h3>
-            <span class="subtitle">artist</span>
-          </a>
-          <a class="ali-cen" href=".">
-            <img class="cover-img" src="assets/img/youg.jpeg" alt="youg" />
-            <h3 class="song-title">Heavy</h3>
-            <span class="subtitle">artist</span>
-          </a>
-          <a class="ali-cen" href=".">
-            <img class="cover-img" src="assets/img/youg.jpeg" alt="youg" />
-            <h3 class="song-title">Heavy</h3>
-            <span class="subtitle">artist</span>
-          </a>
-        </div>
-      </section> -->
-      <section class="playlist">
-        <h2 class="title">Playlist you created</h2>
-        <p class="subtitle">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-          consectetur.
-        </p>
-        <div class="auto-flow max-content">
-          <a class="ali-cen" href=".">
-            <img class="cover-img" src="assets/img/youg.jpeg" alt="youg" />
-            <h3 class="song-title">Heavy</h3>
-            <span class="subtitle">artist</span>
-          </a>
-          <a class="ali-cen" href=".">
-            <img class="cover-img" src="assets/img/youg.jpeg" alt="youg" />
-            <h3 class="song-title">Heavy</h3>
-            <span class="subtitle">artist</span>
-          </a>
-        </div>
-      </section>
-      <section class="artist">
-        <h2 class="title">Popular Artist</h2>
-        <p class="subtitle">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
-          consectetur.
-        </p>
-        <div class="auto-flow max-content">
-          <a class="ali-cen" href=".">
-            <img
-              class="circle cover-img"
-              src="assets/img/youg.jpeg"
-              alt="youg"
-            />
-            <h3 class="song-title">Heavy</h3>
-            <span class="subtitle">artist</span>
-          </a>
-          <a class="ali-cen" href=".">
-            <img
-              class="circle cover-img"
-              src="assets/img/youg.jpeg"
-              alt="youg"
-            />
-            <h3 class="song-title">Heavy</h3>
-            <span class="subtitle">artist</span>
-          </a>
-        </div>
-      </section>
+          <div class="fex-list">
+            <a class="ali-cen" href=".">
+              <img
+                class="cover-img"
+                src="../assets/img/The-Missing-Cryptoqueen.jpeg"
+                alt="The Missing Cryptoqueen"
+              />
+              <h3 class="song-title">The Missing Cryptoqueen</h3>
+              <span class="subtitle">BBC Radio</span>
+            </a>
+            <a class="ali-cen" href=".">
+              <img
+                class="cover-img"
+                src="../assets/img/The-Girls-bathroom.jpeg"
+                alt="The Girls Bathroom"
+              />
+              <h3 class="song-title">The Girls Bathroom</h3>
+              <span class="subtitle">Sophia & Cinzia</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="podcast-cat">
+          <div class="two-column-ali-cen">
+            <h2 class="title">Categories</h2>
+            <a class="see-all" href=".">SEE ALL</a>
+          </div>
+          <div class="fex-list">
+            <a class="ali-cen" href=".">
+              <img
+                class="cover-img"
+                src="../assets/img/podcast-categories/Top-podcasts.png"
+                alt="Top podcasts"
+              />
+              <h3 class="song-title">Top-podcasts</h3>
+              <span class="subtitle">Genre</span>
+            </a>
+            <a class="ali-cen" href=".">
+              <img
+                class="cover-img"
+                src="../assets/img/podcast-categories/Podcast-paylists.png"
+                alt="Podcast-playlists"
+              />
+              <h3 class="song-title">Podcast Playlists</h3>
+              <span class="subtitle">Genre</span>
+            </a>
+            <a class="ali-cen" href=".">
+              <img
+                class="cover-img"
+                src="../assets/img/podcast-categories/Exclusive.png"
+                alt="Exclusive"
+              />
+              <h3 class="song-title">Exclusive</h3>
+              <span class="subtitle">Genre</span>
+            </a>
+            <a class="ali-cen" href=".">
+              <img
+                class="cover-img"
+                src="../assets/img/podcast-categories/Joe-Rogan-Experience.png"
+                alt="Joe Rogan Experience"
+              />
+              <h3 class="song-title">Joe Rogan Experience</h3>
+              <span class="subtitle">Genre</span>
+            </a>
+            <a class="ali-cen" href=".">
+              <img
+                class="cover-img"
+                src="../assets/img/podcast-categories/Stories.png"
+                alt="Stories"
+              />
+              <h3 class="song-title">Stories</h3>
+              <span class="subtitle">Genre</span>
+            </a>
+            <a class="ali-cen" href=".">
+              <img
+                class="cover-img"
+                src="../assets/img/podcast-categories/Education.png"
+                alt="Education"
+              />
+              <h3 class="song-title">Education</h3>
+              <span class="subtitle">Genre</span>
+            </a>
+          </div>
+        </section>
+      </div>
 
       <section class="player">
         <div class="container">
           <div class="three-column-ali-cen song-card">
-            <img src="assets/img/stranger.jpeg" alt="stranger-cover" />
+            <img src="../assets/img/stranger.jpeg" alt="stranger-cover" />
             <div class="song-detail">
               <h2>Song Name</h2>
               <span>artist name</span>

@@ -51,6 +51,11 @@ input[type="range"] {
   box-shadow: -100vw 0 0 100vw #ffffff;
 }
 
+h1 {
+  font-size: 5rem;
+  padding: 0 20px;
+}
+
 /* Utility Classes */
 .two-column-ali-cen {
   display: grid;
@@ -108,20 +113,21 @@ input[type="range"] {
 }
 .title {
   font-size: 1.2rem;
-  padding: 30px 0px 10px 0;
+  padding: 30px 20px 10px 20px;
 }
 .cover-img {
   width: 120px;
+  height: 120px;
   object-fit: cover;
 }
 .song-title {
-  color: 0.9rem;
+  font-size: 0.9rem;
   line-height: 1.5;
 }
 .subtitle {
   color: var(--small-text-colour);
   line-height: 1.5;
-  padding-bottom: 20px;
+  padding: 20px;
   font-size: 0.7rem;
 }
 
@@ -129,7 +135,17 @@ input[type="range"] {
   max-inline-size: fit-content;
   grid-gap: 20px;
 }
+.fex-list {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
 
+.see-all {
+  justify-self: right;
+  align-self: flex-end;
+  padding: 10px 20px;
+}
 /* FIXED LAYOUT */
 body {
   display: grid;
@@ -162,8 +178,10 @@ body {
   left: 0;
   top: 0;
   height: 80vh;
+  background-color: black;
 }
 
-.content {
-  margin-bottom: 100px;
+main.content {
+  padding-bottom: 100px;
+  max-width: calc(100vw - 250px);
 }
