@@ -28,6 +28,9 @@ hr {
   margin-left: 27%;
 }
 
+hr.line1 {
+  display: none;
+}
 li.recent:hover ~ hr {
   margin-left: 7%;
 }
@@ -66,4 +69,26 @@ li.discover:hover ~ hr {
     rgba(8, 71, 43, 1) 0%,
     rgba(0, 0, 0, 1) 100%
   );
+}
+
+@media only screen and (max-width: 850px) {
+  hr.line1 {
+    display: block;
+  }
+
+  hr.line2 {
+    display: none;
+  }
+
+  hr.line1 {
+    margin-left: 45%;
+  }
+
+  li.recent:hover ~ hr {
+    margin-left: 45%;
+  }
+
+  li.genres:hover ~ hr {
+    margin-left: 45%;
+  }
 }

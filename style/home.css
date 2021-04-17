@@ -8,7 +8,7 @@
 }
 
 .category-list li {
-  display: inline;
+  display: inline-block;
   text-align: center;
 }
 
@@ -26,6 +26,10 @@ hr {
   border: none;
   transition: 0.3s ease-in-out;
   margin-left: 7%;
+}
+
+hr.line1 {
+  display: none;
 }
 
 li.podcast:hover ~ hr {
@@ -46,4 +50,26 @@ li.discover:hover ~ hr {
 
 .category-list li a:hover {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 850px) {
+  hr.line1 {
+    display: block;
+  }
+
+  hr.line2 {
+    display: none;
+  }
+
+  hr.line1 {
+    margin-left: 15%;
+  }
+
+  li.podcast:hover ~ hr {
+    margin-left: 15%;
+  }
+
+  li.genres:hover ~ hr {
+    margin-left: 15%;
+  }
 }
