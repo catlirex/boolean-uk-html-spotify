@@ -11,9 +11,16 @@
   );
 }
 
+.hero {
+  padding: 0 32px;
+  grid-gap: 30px;
+}
 .hero img {
-  width: 250px;
-  margin: 50px;
+  width: 200px;
+}
+.hero h1 {
+  font-size: 3rem;
+  padding: 0;
 }
 
 .playlist-action-bar {
