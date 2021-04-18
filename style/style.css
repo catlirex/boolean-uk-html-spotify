@@ -76,7 +76,7 @@ h1 {
   font-size: 0.9rem;
 }
 
-.song-detail h2 {
+h2 {
   font-size: 1rem;
 }
 
@@ -184,4 +184,27 @@ body {
 main.content {
   padding-bottom: 100px;
   max-width: calc(100vw - 250px);
+  min-width: 400px;
+}
+
+@media only screen and (max-width: 650px) {
+  body {
+    grid-template-columns: 50px 1fr;
+  }
+
+  .song-title {
+    font-size: 0.8rem;
+  }
+  .subtitle {
+    font-size: 0.6rem;
+  }
+
+  h2 {
+    font-size: 0.8rem;
+  }
+
+  main.content {
+    padding-bottom: 100px;
+    max-width: calc(100vw - 50px);
+    min-width: 400px;
 }

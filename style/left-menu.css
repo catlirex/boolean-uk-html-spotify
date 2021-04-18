@@ -2,6 +2,10 @@
   width: 130px;
 }
 
+.spotify-logo {
+  display: none;
+}
+
 .logo-container {
   padding: 20px 24px;
 }
@@ -56,4 +60,41 @@
 
 .left-menu .fixed svg {
   color: var(--small-text-colour);
+}
+
+@media only screen and (max-width: 650px) {
+  .spotify-logo--text {
+    display: none;
+  }
+
+  .spotify-logo {
+    display: block;
+    width: 30px;
+  }
+
+  .logo-container {
+    padding: 20px 10px;
+  }
+
+  .playlist {
+    display: none;
+  }
+
+  .left-menu span {
+    display: none;
+  }
+
+  .left-menu nav li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .left-menu .fixed {
+    width: 50px;
+    padding: 0 10px;
+    align-self: center;
+  }
+  .left-menu .fixed .two-column-ali-cen {
+    border-top: none;
+  }
 }
