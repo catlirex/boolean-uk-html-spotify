@@ -186,6 +186,8 @@ body {
     ". upgrade" auto/
     1fr auto;
   justify-items: right;
+
+  opacity: 0.7;
 }
 
 .player {
